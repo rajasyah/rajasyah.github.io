@@ -1,90 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
-    <title>Rajasyah Pahlevi</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body style="background-color: #0a192f">
-    <nav class="navbar navbar-expand-lg navbar-dark mt-2">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img
+  <body class="bg-[#f6f6f6]">
+    <div class="xl:container xl:mx-auto lg:container lg:mx-auto font-['inter']">
+      <nav class="w-full h-20 flex justify-between px-10 items-center">
+        <div>
+          <img
             src="./assets/img/r.png"
-            alt="logo-brand"
-            width="50"
-            height="44"
+            alt="Logo Rajasyah Pahlevi"
+            class="w-12"
           />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav h5">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
         </div>
+        <div class="text-[#0c2a5c] flex gap-5">
+          <a class="hover:text-red-500" href="#">Home</a>
+          <a class="hover:text-red-500" href="#">Work</a>
+          <a class="hover:text-red-500" href="#">Projects</a>
+          <a class="hover:text-red-500" href="#">Contact</a>
+        </div>
+
+        <div>
+          <button class="bg-[#e21500] text-white rounded px-3 py-1">
+            Say Hello!
+          </button>
+        </div>
+      </nav>
+
+      <div class="text-center mt-10">
+        <h1
+          class="font-['syne'] text-4xl font-bold text-gray-900 sm:text-3xl text-[#e21500]"
+        >
+          Designer, Web Developer & Blogger
+        </h1>
+        <p class="text-lg text pt-5 text-gray-700 sm:text-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
       </div>
-    </nav>
-
-    <!-- <div class="container">
-      <img
-        class="img-thumbnail rounded"
-        src="assets/img/picture.jpg"
-        alt="rajasyah pahlevi"
-      />
-    </div> -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+    </div>
   </body>
 </html>
