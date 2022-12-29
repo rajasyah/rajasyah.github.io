@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Rajasyah Pahlevi | Designer, Web Developer & Blogger</title>
   </head>
   <body class="bg-[#f6f6f6]">
     <div class="xl:container xl:mx-auto lg:container lg:mx-auto font-['inter']">
@@ -24,7 +47,7 @@
               alt="Rajasyah Logo"
             />
             <span
-              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              class="font-['syne'] self-center text-xl font-semibold whitespace-nowrap dark:text-white"
               >Rajasyah</span
             >
           </a>
@@ -106,7 +129,7 @@
         id="home"
       >
         <h1
-          class="font-['syne'] text-2xl lg:text-5xl font-bold text-gray-900 md:text-4xl sm:text-3xl text-[#e21500]"
+          class="animate__animated animate__fadeInUp font-['syne'] text-2xl lg:text-5xl font-bold text-gray-900 md:text-4xl sm:text-3xl text-[#e21500]"
         >
           Designer, Web Developer & Blogger
         </h1>
@@ -121,11 +144,16 @@
       </div>
 
       <div
-        class="w-full h-full mt-16 rounded bg-red-600 px-10 py-16 pb-60 md:px-28 lg:pt-24 lg:pb-72"
+        class="w-full h-full mt-16 rounded bg-red-600 px-10 py-16 pb-60 md:px-28 lg:pt-24 lg:pb-72 xl:px-80"
       >
         <div
           class="flex flex-col justify-center items-center gap-10 text-center text-white"
         >
+          <img
+            class="w-36 h-36 rounded-full border-2 hover:shadow-lg"
+            src="assets/img/picture.jpg"
+            alt="Rounded avatar"
+          />
           <h3
             class="font-['syne'] text-2xl xl:text-4xl lg:text-3xl md:text-3xl font-bold"
           >
@@ -139,6 +167,160 @@
             curious, and perpetually working on improving my chops one design
             problem at a time.
           </p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+
+      <div class="grid lg:grid-cols-3 gap-3 mx-10 mt-[-150px]">
+        <div
+          class="flex flex-col justify-center items-center gap-5 p-12 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div
+            class="flex justify-center items-center bg-red-500 w-24 h-24 rounded-full"
+          >
+            <svg
+              class="w-12 h-12 text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <h5
+            class="font-['syne'] mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"
+          >
+            Designer
+          </h5>
+
+          <p
+            class="mb-3 font-normal text-center text-gray-500 dark:text-gray-400"
+          >
+            I value simple content structure, clean design patterns, and
+            thoughtful interactions.
+          </p>
+          <div class="flex flex-col items-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">
+              Things I enjoy designing :
+            </h5>
+            <p>UX, UI, Web, Apps, Logos</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">
+              Design Tools :
+            </h5>
+            <p>Figma</p>
+            <p>Adobe Illustrator</p>
+            <p>Adobe Photoshop</p>
+            <p>Webflow</p>
+            <p>Font Awesome</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-center items-center gap-5 p-12 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div
+            class="flex justify-center items-center bg-red-500 w-24 h-24 rounded-full"
+          >
+            <svg
+              class="w-12 h-12 text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <h5
+            class="font-['syne'] mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Web Developer
+          </h5>
+
+          <p
+            class="mb-3 font-normal text-center text-gray-500 dark:text-gray-400"
+          >
+            I like to code things from scratch, and enjoy bringing ideas to life
+            in the browser.
+          </p>
+
+          <div class="flex flex-col items-center text-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">
+              Languages I speak :
+            </h5>
+            <p>Html, Css, Javascript, Php, Git</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">Dev Tools :</h5>
+            <p>VSCode</p>
+            <p>Github</p>
+            <p>Tailwindcss</p>
+            <p>HeroIcons</p>
+            <p>Terminal</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-center items-center gap-5 p-12 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div
+            class="flex justify-center items-center bg-red-500 w-24 h-24 rounded-full"
+          >
+            <svg
+              class="w-12 h-12 text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
+                clip-rule="evenodd"
+              ></path>
+              <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
+            </svg>
+          </div>
+          <h5
+            class="font-['syne'] mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"
+          >
+            Blogger
+          </h5>
+
+          <p
+            class="mb-3 font-normal text-center text-gray-500 dark:text-gray-400"
+          >
+            I genuinely care about people, and love helping fellow designers
+            work on their craft.
+          </p>
+          <div class="flex flex-col items-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">
+              Experiences I draw from :
+            </h5>
+            <p>UX/UI, Product design, Freelancing</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <h5 class="font-['syne'] text-red-500 font-medium">
+              Mentor Stats :
+            </h5>
+            <p>7 years experience</p>
+            <p>26 short courses</p>
+            <p>65 bootcamps</p>
+            <p>200+ students</p>
+            <p>2,350+ mentor sessions</p>
+          </div>
         </div>
       </div>
 
